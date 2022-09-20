@@ -1,0 +1,29 @@
+$(function(){
+    $(".dog_1").hide();
+    $(".dog_2").hide();
+    $(".dog_3").hide();
+        $(".bt1").click(function(){
+            $(".dog").show();
+            $(".dog_1").hide();
+            $(".dog_2").hide();
+            $(".dog_3").hide();
+    });	
+    $(".bt2").click(function(){
+        $(".dog").hide();
+        $(".dog_1").show();
+        $(".dog_2").hide();
+        $(".dog_3").hide();
+    });	
+    $(".bt3").click(function(){
+            $(".dog").hide();
+            $(".dog_1").hide();
+            $(".dog_2").show();
+            $(".dog_3").hide();
+    });	
+    $(".bt4").click(function(){
+            $(".dog").hide();
+            $(".dog_1").hide();
+            $(".dog_2").hide();
+            $(".dog_3").show();
+    });	
+});
