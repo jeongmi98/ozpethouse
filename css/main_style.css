@@ -116,7 +116,7 @@ body {
 
 
 #section_1 {
-	width:1320px;      
+	      
 	margin:0 auto; 
 	padding:150px 0 0;
 }
@@ -124,7 +124,8 @@ body {
 	margin-bottom:150px;
 }
 #section_1 .section_po {
-	height: 710px;     
+	height: 710px; 
+	display: inline-block;
 }
 #section_1 .section_po .cont {         
 	width:153px;       
